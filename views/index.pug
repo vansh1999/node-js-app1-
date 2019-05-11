@@ -1,0 +1,17 @@
+extends layout
+
+block content 
+
+  h1 #{title}
+  ul.list-group
+    each weloop , i in article
+      li.list-group-item= weloop.title
+
+
+
+
+        //- a(href = "/article/"+articles._id)= weloop.title
+
+
+      
+       
